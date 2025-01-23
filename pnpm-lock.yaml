@@ -1,0 +1,46 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@rasch/argv':
+        specifier: ^0.1.2
+        version: 0.1.2
+    devDependencies:
+      '@types/node':
+        specifier: ^22.10.7
+        version: 22.10.7
+      fvb:
+        specifier: ^0.1.0
+        version: 0.1.0
+
+packages:
+
+  '@rasch/argv@0.1.2':
+    resolution: {integrity: sha512-W6Me8X4y3CoZZzq0iUPnkKyCAkcdcSi+hphP+pcT24M4pB2Uo/ZbdtoyrbBYCXJ7yZEcSwRuXPzbjUaWx8cowg==}
+
+  '@types/node@22.10.7':
+    resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
+
+  fvb@0.1.0:
+    resolution: {integrity: sha512-6z/c/4XFJFH3zZcyAlL6dK058tDWEwBEPgKEaCEzihdgGdzHaNxcY+pqJHYb6MQKMmGTUPY8gpor+My564IKoQ==}
+
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
+
+snapshots:
+
+  '@rasch/argv@0.1.2': {}
+
+  '@types/node@22.10.7':
+    dependencies:
+      undici-types: 6.20.0
+
+  fvb@0.1.0: {}
+
+  undici-types@6.20.0: {}

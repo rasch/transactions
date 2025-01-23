@@ -1,0 +1,48 @@
+{
+  "name": "@rasch/transactions",
+  "version": "0.1.0",
+  "description": "CLI double-entry bookkeeping",
+  "type": "module",
+  "files": [
+    "src/index.js"
+  ],
+  "bin": {
+    "tx": "src/index.js"
+  },
+  "scripts": {
+    "clean": "git clean -dfx",
+    "test": "node src/index.spec.js"
+  },
+  "keywords": [
+    "accounting",
+    "assets",
+    "balance",
+    "bookkeeping",
+    "credit",
+    "debit",
+    "double-entry",
+    "equity",
+    "expenses",
+    "financial",
+    "finance",
+    "income",
+    "ledger",
+    "liabilites",
+    "money",
+    "register",
+    "taxes"
+  ],
+  "author": "Rand Schneck <i@rasch.co>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasch/transactions.git"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "fvb": "^0.1.0"
+  },
+  "dependencies": {
+    "@rasch/argv": "^0.1.2"
+  }
+}
